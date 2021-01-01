@@ -68,7 +68,7 @@ while cont=='y':
     word_list = json.load(jsonFile)
 
     print("Enter difficulty level (1-3)")
-    print("1 - Easy\n2 - Normal\n3 - Difficult")
+    print("1 - Easy\n2 - Intermediate\n3 - Difficult")
 
     level = getLevel()
 
